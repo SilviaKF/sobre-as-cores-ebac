@@ -1,0 +1,157 @@
+.cores_botoes,
+.botao,
+.botao_active {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cores_botoes {
+    min-height: calc(100vh - 235px); 
+    padding-bottom: 0px; 
+}  
+
+
+.container_botao:hover .texto_botao,
+.container_botao:hover .texto_botao_preto {
+    visibility: visible;
+}
+
+.container_botao {
+    position: relative;
+    display: inline-block;
+}
+
+.container_botao .texto_botao {
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #292929;
+    opacity: 1;
+}
+
+.container_botao .texto_botao_preto {
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #FFF;
+}
+
+.cores_botoes a,
+.botao a,
+.botao_active a {
+    height: 70px;
+    text-decoration: none;
+}
+/* 
+.container_botao p {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #292929;
+} */
+
+.container_botao_active .active {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #292929;
+}
+
+.container_botao .botao_preto {
+    color: #FFF;
+}
+
+.active_preto {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #FFF;
+}
+
+.conteudo_total {
+    display: flex;
+    gap: 48px;
+}
+
+.cores_botoes a:hover {
+    box-shadow: 0px 0px 20px #303030;
+}
+
+@media screen and (min-width: 1728px) {
+    .cores_botoes a,
+    .botao a {
+        height: 90px;
+    }
+    
+    .container_botao p {
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        font-family: "urbana", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 130px;
+        color: #292929;
+    }
+
+    .texto_botao {
+        padding: 125px 0;
+    }
+
+    .container_botao .botao_preto {
+        color: #FFF;
+    }
+
+    .container_botao_active .active {
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        font-family: "urbana", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 30px;
+        color: #292929;
+    }
+
+    .container_botao .texto_botao {
+        visibility: hidden;
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        position: absolute;
+        z-index: 1;
+        font-family: "urbana", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 30px;
+        color: #292929;
+        opacity: 1;
+    }
+}

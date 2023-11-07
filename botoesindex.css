@@ -1,0 +1,101 @@
+.cores_botoes,
+.botao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cores_botoes {
+    min-height: calc(100vh - 235px); 
+    padding-bottom: 0px; 
+}  
+
+.cores_botoes a,
+.botao a {
+    height: 70px;
+}
+
+.container_botao:hover .texto_botao,
+.container_botao:hover .texto_botao_preto {
+    visibility: visible;
+}
+
+.container_botao {
+    position: relative;
+    display: inline-block;
+}
+
+.container_botao .texto_botao {
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #292929;
+}
+.texto_botao_preto {
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "urbana", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #FFF;
+}
+
+.cores_botoes a:hover {
+    box-shadow: 0px 0px 20px #303030;
+}
+
+@media screen and (min-width: 1728px) {
+    .cores_botoes a,
+    .botao a {
+        height: 90px;
+    }
+    .container_botao:hover .texto_botao,
+    .container_botao:hover .texto_botao_preto {
+        visibility: visible;
+    }
+    
+    .container_botao {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .container_botao .texto_botao {
+        visibility: hidden;
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        position: absolute;
+        z-index: 1;
+        font-family: "urbana", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 30px;
+        color: #292929;
+    }
+    .texto_botao_preto {
+        visibility: hidden;
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        position: absolute;
+        z-index: 1;
+        font-family: "urbana", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 30px;
+        color: #FFF;
+    }
+
+}

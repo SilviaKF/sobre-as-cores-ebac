@@ -1,0 +1,65 @@
+/* Urbana Medium
+
+font-family: "urbana", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Urbana MediumItalic
+
+font-family: "urbana", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Urbana Semibold
+
+font-family: "urbana", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Urbana Bold
+
+font-family: "urbana", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Urbana BoldItalic
+
+font-family: "urbana", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Urbana BlackItalic
+
+font-family: "urbana", sans-serif;
+font-weight: 900;
+font-style: italic; */
+
+
+/* a.vermelho:hover {
+    box-shadow: 0px 0px 10px 5px #EE5268;
+}
+
+a.laranja:hover {
+    box-shadow: 0px 0px 10px 5px #F49F51;
+
+} */
+
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ee5268+0,f49f51+19,fcdd59+41,50b378+61,5471f6+81,6a429d+100 */
+/* background: linear-gradient(to right,  #ee5268 0%,#f49f51 19%,#fcdd59 41%,#50b378 61%,#5471f6 81%,#6a429d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background-clip: text;
+-webkit-background-clip: text;  
+-webkit-text-fill-color: transparent; */
+
+/* color: #5471F6;
+background: linear-gradient(90deg, #EE5268, #F49F51, #FCDD59, #50B378, #5471F6, #6A429D);
+background-clip: text;
+-webkit-background-clip: text;  
+-webkit-text-fill-color: transparent; */
+
+
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
